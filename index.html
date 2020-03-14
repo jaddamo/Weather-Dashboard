@@ -1,8 +1,18 @@
-# Weather-Dashboard
-#### By: Joe Adamo
-## A web-based Weather Dashboard Widget
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div>Form Input</div>
+    <div>City Selection</div>
+    <div>Weather Display</div>
 
 
+    <script>
 
     //  add click event to form city input
 
@@ -22,37 +32,22 @@
     
     // getCityWeather(cityName)
 
+        // create urlString: api base url + endpoint + cityname
+
         // make an ajax to weather api with city name
         // return results
 
-    //  displayWeather (weather obj)
+    //  displayWeather (weather obj)  // take weather results and build html
         
         // build html elements from results
+        var %img = %("<img>").attr({alt: weatherResults.weather.main src: https: "//openweathermap.org/img/wn/" + weatherResults.weather.main + " icon" })
 
     //  read local storage for city buttons 
-        
-    //  Execution
-        // CALL: read local storage()
 
+//  Execution
+    // CALL: read local storage()
 
+    </script>
     
-
-
-
-
-
-### API key:
-- Your API key is de2506a467e4b9d7fe68db4d5921dd4b
-- Within the next couple of hours, it will be activated and ready to use
-- You can later create more API keys on your account page
-- Please, always use your API key in each API call
-
-### Endpoint:
-- Please, use the endpoint api.openweathermap.org for your API calls
-- Example of API call:
-api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=de2506a467e4b9d7fe68db4d5921dd4b
-
-### Useful links:
-- API documentation https://openweathermap.org/api
-- Details of your plan https://openweathermap.org/price
-- Please, note that 16-days daily forecast and History API are not available for Free subscribers
+</body>
+</html>
